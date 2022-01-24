@@ -6,4 +6,39 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin: 0;
+    line-height: 1.1;
+}
+
 #map { height: 90vh; }
+
+img {
+    max-height: 75px;
+    max-width: 100px;
+}
+
+.separator{
+    width: 1px;
+    height: 75px;
+    border-right: 1px solid gray;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    min-width: 200px;
+}
+
+.popup-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+    margin-left: 0;
+}
